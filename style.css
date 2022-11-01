@@ -1,0 +1,44 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    background-color: rgba(108, 112, 158, 0.8); 
+}
+
+.title-login h2{
+    font-size: 36px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.form-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(108, 39, 100, 0.5);
+    min-width: 400px;   
+    min-height: 500px;
+    margin-right: 20px;
+}
+
+.quad-content input{
+    margin: 10px;
+    text-align: justify;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    color: #000000;
+}
+
