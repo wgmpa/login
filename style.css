@@ -6,6 +6,9 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url("./img/tela1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .login{
@@ -13,11 +16,10 @@ body{
     align-items: center;
     justify-content: flex-end;
     height: 100vh;
-    background-color: rgba(108, 112, 158, 0.8); 
 }
 
 .title-login h2{
-    font-size: 36px;
+    font-size: 2.5rem;
     text-shadow: 0.1em 0.1em 0.2em black;
 }
 
@@ -26,9 +28,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(108, 39, 100, 0.5);
-    min-width: 400px;   
-    min-height: 500px;
+    background-color: rgba(125, 104, 153, 0.5);
+    min-width: 30%;   
+    min-height: 80%;
     margin-right: 20px;
 }
 
@@ -38,7 +40,22 @@ body{
     border-radius: 40px;
     padding: 10px;
     border: none;
-    font-size: 16px;
+    font-size: 1rem;
     color: #000000;
 }
 
+
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.card-footer input[type=submit]{
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    margin-bottom: 10px;
+}
